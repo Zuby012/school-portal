@@ -40,7 +40,7 @@
 const menu = ref('hidden')
 
 const menuToggle = () => {
-    if (menu.value === 'hidden') {
+    if (menu.value === 'hidden' ) {
         menu.value = 'block';
     }else{
         menu.value = 'hidden'

@@ -10,6 +10,9 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  nitro: {
+    preset: 'vercel',
+  },
   app: {
     head: {
       titleTemplate: 'Berows University - %s',
