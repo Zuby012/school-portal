@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     externals: {
       external: [
         '@mongodb-js/zstd',
+        'snappy',
       ],
     },
     preset: 'vercel',
