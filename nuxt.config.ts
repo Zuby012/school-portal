@@ -10,15 +10,6 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  nitro: {
-    externals: {
-      inline: ['mongodb']
-    },
-    alias: {
-      // Mock MongoDB's optional dependencies
-      '@mongodb-js/zstd': 'unenv/runtime/mock/empty',
-    },
-  },
   app: {
     head: {
       titleTemplate: 'Berows University - %s',
