@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  nitro: {
+  /*nitro: {
     externals: {
       external: [
         '@mongodb-js/zstd',
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
       ],
     },
     preset: 'vercel',
-  },
+  },*/
   app: {
     head: {
       titleTemplate: 'Berows University - %s',
