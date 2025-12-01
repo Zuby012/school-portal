@@ -18,9 +18,4 @@ export default defineNuxtConfig({
       ],
     }
   },
-  nitro: {
-    rollupConfig: {
-      external: ['@aws-sdk/credential-providers']
-    }
-  },
 })
