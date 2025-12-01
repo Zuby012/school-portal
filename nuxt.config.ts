@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  nitro: {
+  /*nitro: {
     externals: {
       inline: ['mongodb']
     },
@@ -25,18 +25,7 @@ export default defineNuxtConfig({
       'gcp-metadata': 'unenv/runtime/mock/empty',
       'snappy/package.json': 'unenv/runtime/mock/empty',
     },
-    /*rollupConfig: {
-      external: [
-        '@mongodb-js/zstd',
-        'snappy',
-        'kerberos',
-        'aws4',
-        'mongodb-client-encryption',
-        'mongodb-js/client-encryption',
-        'gcp-metadata'
-      ]
-    }*/
-  },
+  },*/
   app: {
     head: {
       titleTemplate: 'Berows University - %s',
