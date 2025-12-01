@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     externals: {
       inline: ['mongodb']
     },
-    /*alias: {
+    alias: {
       // Mock MongoDB's optional dependencies
       '@mongodb-js/zstd': 'unenv/runtime/mock/empty',
       'snappy': 'unenv/runtime/mock/empty',
@@ -24,8 +24,8 @@ export default defineNuxtConfig({
       'mongodb-js/client-encryption': 'unenv/runtime/mock/empty',
       'gcp-metadata': 'unenv/runtime/mock/empty',
       'snappy/package.json': 'unenv/runtime/mock/empty',
-    },*/
-    rollupConfig: {
+    },
+    /*rollupConfig: {
       external: [
         '@mongodb-js/zstd',
         'snappy',
@@ -35,7 +35,7 @@ export default defineNuxtConfig({
         'mongodb-js/client-encryption',
         'gcp-metadata'
       ]
-    }
+    }*/
   },
   app: {
     head: {
