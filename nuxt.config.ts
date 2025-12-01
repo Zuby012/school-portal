@@ -19,8 +19,8 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    externals: {
-      inline: ['mongodb']
+    rollupConfig: {
+      external: ['@aws-sdk/credential-providers']
     }
   },
 })
