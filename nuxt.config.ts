@@ -11,6 +11,11 @@ export default defineNuxtConfig({
     ],
   },
   nitro: {
+    externals: {
+      external: [
+        '@mongodb-js/zstd',
+      ],
+    },
     preset: 'vercel',
   },
   app: {
